@@ -1,9 +1,3 @@
-# s0urcio
-Hack and learn!
-
-Please clone this repo and run  
-`virtualenv hack && source hack/bin/activate && pip2 install -r requirements.txt`
-
 # Anatomy of a browser game
 
 ## Browser elements
@@ -15,9 +9,9 @@ There are three (officially 4 now! #webassembly plug) programing languages execu
 html is strictly a markup language, but it is also the easiest to navigate and to manipulate e.g.  
 ```
 <div class="login-element" style="width: 280px; left: 356px; top: 150px; text-align: center">
-					
-	<form id="login-input-form" class="input-form-wrapper" onsubmit="return false;" style="background-color: #0b0b0c; font-size: 18px">&gt; <input type="text" class="input-form" id="login-input" autocomplete="off" spellcheck="false" maxlength="12" placeholder="Enter Name" style="width: 245px; height: 38px">
-	</form>
+                    
+    <form id="login-input-form" class="input-form-wrapper" onsubmit="return false;" style="background-color: #0b0b0c; font-size: 18px">&gt; <input type="text" class="input-form" id="login-input" autocomplete="off" spellcheck="false" maxlength="12" placeholder="Enter Name" style="width: 245px; height: 38px">
+    </form>
     <div id="login-play" class="button" style="margin-top: 10px; padding: 10px 110px 10px 110px; font-size: 18px; font-weight: bold">Login</div>
     <div style="margin-top: 10px">
         <span style="margin-right: 20px">
@@ -344,7 +338,7 @@ with open("hack.js", "w+") as outfile:
 
 
 ```python
-js
+print js
 ```
 
 
