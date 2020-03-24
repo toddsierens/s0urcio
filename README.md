@@ -349,8 +349,3 @@ with open("hack.js", "w+") as outfile:
 ```python
 print js
 ```
-
-
-```python
-
-```
