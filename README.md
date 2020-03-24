@@ -10,7 +10,7 @@ and also we will need tesseract ocr
 # Anatomy of a browser game
 
 ## Browser elements
-Since the deprecation of Flash™ browser games have had to become more creative in how they are exectued. Since then, and the popularization of so-called ["io" games](https://www.crazygames.com/c/io) browser-based games have converged on using an `html` canvas to draw all game elements. This is great for us! Since browser memory can be easily accessed by us, we can fiddle with the inner workings of the games!!!
+Since the deprecation of Flash™, browser games have had to become more creative in how they are exectued. Since then, and the popularization of so-called ["io" games](https://www.crazygames.com/c/io) browser-based games have converged on using an `html` canvas to draw all game elements. This is great for us! Since browser memory can be easily accessed by us, we can fiddle with the inner workings of the games!!!
 
 There are three (officially 4 now! #webassembly plug) programing languages executed by a browser.  
 ### html
@@ -47,7 +47,7 @@ css is for styling only. It can come in handy for games if there is some kind of
 ```
 ### javascript
 
-javascript is the fully-fledged programming language and it will be where all of the memory is help client-side. If we gain access to the correct scope of javascript we can see all variables that are currently being stored client-side. e.g.  
+javascript is the fully-fledged programming language and it will be where all of the logic is executed, and where all of the memory is held client-side. If we gain access to the correct scope of javascript we can see all variables that are currently being stored client-side. e.g.  
 ```
 function a(t, n, i) {
     var a = new Date;
