@@ -5,7 +5,7 @@ Please clone this repo and run
 `virtualenv hack && source hack/bin/activate && pip2 install -r requirements.txt`
 
 and also we will need tesseract ocr
-`sudo apt install tesseract-ocr`
+`brew install tesseract`
 
 # Anatomy of a browser game
 
